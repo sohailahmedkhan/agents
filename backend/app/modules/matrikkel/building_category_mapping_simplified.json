@@ -1,0 +1,255 @@
+{
+  "description": "Mapping of NS 3457 / SSB building codes to simplified categories for LLM analysis",
+  "version": "1.1",
+  "categories": {
+    "Skoler": {
+      "name_en": "Schools",
+      "description": "Primary, secondary, and upper secondary schools",
+      "codes": [613, 614, 615, 616, 619]
+    },
+    "Universiteter og høgskoler": {
+      "name_en": "Higher Education",
+      "description": "Universities, colleges, and research buildings",
+      "codes": [621, 623, 629]
+    },
+    "Barnehager": {
+      "name_en": "Kindergarten",
+      "description": "Kindergartens and playgrounds",
+      "codes": [611, 612]
+    },
+    "Idrettsanlegg": {
+      "name_en": "Sport Facilities",
+      "description": "Sports halls, swimming pools, ice rinks, fitness studios",
+      "codes": [651, 652, 653, 654, 655, 659]
+    },
+    "Helsebygg": {
+      "name_en": "Healthcare Facilities",
+      "description": "Hospitals, clinics, health centers, primary care",
+      "codes": [719, 731, 732, 739]
+    },
+    "Sykehjem og omsorgsboliger": {
+      "name_en": "Nursing Homes",
+      "description": "Nursing homes, rehabilitation centers, elderly care",
+      "codes": [721, 722, 723, 729]
+    },
+    "Boliger for eldre": {
+      "name_en": "Housing for Older People",
+      "description": "Residential and service centers, communal housing for elderly",
+      "codes": [151]
+    },
+    "Boliger": {
+      "name_en": "General Housing",
+      "description": "All residential buildings (detached, semi-detached, apartments, etc.)",
+      "codes": [111, 112, 113, 121, 122, 123, 124, 131, 133, 135, 136, 141, 142, 143, 144, 145, 146, 152, 159, 161, 162, 163, 171, 172, 181, 182, 183, 193, 199]
+    },
+    "Administrasjonsbygg": {
+      "name_en": "Administration",
+      "description": "Office buildings, town halls, government buildings",
+      "codes": [311, 312, 313, 319]
+    },
+    "Museer og biblioteker": {
+      "name_en": "Museums",
+      "description": "Museums, art galleries, libraries, zoos",
+      "codes": [641, 642, 643, 649]
+    },
+    "Asylmottak": {
+      "name_en": "Asylum Centers",
+      "description": "Residential barracks, temporary housing (often used for asylum centers)",
+      "codes": [193, 529]
+    },
+    "Lagerbygninger": {
+      "name_en": "Warehouse",
+      "description": "Warehouse halls, cold storage, silos",
+      "codes": [231, 232, 233, 239]
+    },
+    "Tekniske anlegg": {
+      "name_en": "Technical Facilities",
+      "description": "Water supply, sewage treatment, energy, telecommunications",
+      "codes": [214, 216, 219, 221, 223, 229, 429]
+    },
+    "Verksteder": {
+      "name_en": "Workshops",
+      "description": "Workshop buildings, factories, industrial buildings",
+      "codes": [211, 212]
+    },
+    "Restauranter og serveringssteder": {
+      "name_en": "Restaurants",
+      "description": "Restaurants, cafes, canteens, fast food outlets",
+      "codes": [531, 532, 533, 539]
+    },
+    "Kulturbygg": {
+      "name_en": "Cultural Buildings",
+      "description": "Theaters, cinemas, concert halls, community halls",
+      "codes": [661, 662, 663, 669]
+    },
+    "Religiøse bygg": {
+      "name_en": "Religious Buildings",
+      "description": "Churches, mosques, synagogues, monasteries",
+      "codes": [671, 672, 673, 674, 675, 679]
+    },
+    "Hoteller og overnattingssteder": {
+      "name_en": "Hotels and Accommodation",
+      "description": "Hotels, motels, hostels, camping cabins",
+      "codes": [511, 512, 519, 521, 522, 523, 524]
+    },
+    "Forretningsbygg": {
+      "name_en": "Commercial Buildings",
+      "description": "Shopping centers, shops, gas stations",
+      "codes": [321, 322, 323, 329, 330]
+    },
+    "Samferdselsbygg": {
+      "name_en": "Transport Buildings",
+      "description": "Terminals, stations, parking garages",
+      "codes": [411, 412, 415, 416, 419, 431, 439, 441, 449]
+    },
+    "Beredskapsbygg": {
+      "name_en": "Emergency Services",
+      "description": "Police stations, fire stations, ambulance stations",
+      "codes": [821, 822, 823, 824, 825, 829]
+    },
+    "Fengselsbygg": {
+      "name_en": "Prison Buildings",
+      "description": "Prison buildings",
+      "codes": [819]
+    },
+    "Landbruksbygg": {
+      "name_en": "Agricultural Buildings",
+      "description": "Farm buildings, greenhouses, fishing facilities",
+      "codes": [241, 243, 244, 245, 248, 249]
+    },
+    "Annet": {
+      "name_en": "Other",
+      "description": "Monuments, public toilets, unknown building types",
+      "codes": [830, 840, 999]
+    }
+  },
+  "code_to_category": {
+    "111": "Boliger",
+    "112": "Boliger",
+    "113": "Boliger",
+    "121": "Boliger",
+    "122": "Boliger",
+    "123": "Boliger",
+    "124": "Boliger",
+    "131": "Boliger",
+    "133": "Boliger",
+    "135": "Boliger",
+    "136": "Boliger",
+    "141": "Boliger",
+    "142": "Boliger",
+    "143": "Boliger",
+    "144": "Boliger",
+    "145": "Boliger",
+    "146": "Boliger",
+    "151": "Boliger for eldre",
+    "152": "Boliger",
+    "159": "Boliger",
+    "161": "Boliger",
+    "162": "Boliger",
+    "163": "Boliger",
+    "171": "Boliger",
+    "172": "Boliger",
+    "181": "Boliger",
+    "182": "Boliger",
+    "183": "Boliger",
+    "193": "Asylmottak",
+    "199": "Boliger",
+    "211": "Verksteder",
+    "212": "Verksteder",
+    "214": "Tekniske anlegg",
+    "216": "Tekniske anlegg",
+    "219": "Tekniske anlegg",
+    "221": "Tekniske anlegg",
+    "223": "Tekniske anlegg",
+    "229": "Tekniske anlegg",
+    "231": "Lagerbygninger",
+    "232": "Lagerbygninger",
+    "233": "Lagerbygninger",
+    "239": "Lagerbygninger",
+    "241": "Landbruksbygg",
+    "243": "Landbruksbygg",
+    "244": "Landbruksbygg",
+    "245": "Landbruksbygg",
+    "248": "Landbruksbygg",
+    "249": "Landbruksbygg",
+    "311": "Administrasjonsbygg",
+    "312": "Administrasjonsbygg",
+    "313": "Administrasjonsbygg",
+    "319": "Administrasjonsbygg",
+    "321": "Forretningsbygg",
+    "322": "Forretningsbygg",
+    "323": "Forretningsbygg",
+    "329": "Forretningsbygg",
+    "330": "Forretningsbygg",
+    "411": "Samferdselsbygg",
+    "412": "Samferdselsbygg",
+    "415": "Samferdselsbygg",
+    "416": "Samferdselsbygg",
+    "419": "Samferdselsbygg",
+    "429": "Tekniske anlegg",
+    "431": "Samferdselsbygg",
+    "439": "Samferdselsbygg",
+    "441": "Samferdselsbygg",
+    "449": "Samferdselsbygg",
+    "511": "Hoteller og overnattingssteder",
+    "512": "Hoteller og overnattingssteder",
+    "519": "Hoteller og overnattingssteder",
+    "521": "Hoteller og overnattingssteder",
+    "522": "Hoteller og overnattingssteder",
+    "523": "Hoteller og overnattingssteder",
+    "524": "Hoteller og overnattingssteder",
+    "529": "Asylmottak",
+    "531": "Restauranter og serveringssteder",
+    "532": "Restauranter og serveringssteder",
+    "533": "Restauranter og serveringssteder",
+    "539": "Restauranter og serveringssteder",
+    "611": "Barnehager",
+    "612": "Barnehager",
+    "613": "Skoler",
+    "614": "Skoler",
+    "615": "Skoler",
+    "616": "Skoler",
+    "619": "Skoler",
+    "621": "Universiteter og høgskoler",
+    "623": "Universiteter og høgskoler",
+    "629": "Universiteter og høgskoler",
+    "641": "Museer og biblioteker",
+    "642": "Museer og biblioteker",
+    "643": "Museer og biblioteker",
+    "649": "Museer og biblioteker",
+    "651": "Idrettsanlegg",
+    "652": "Idrettsanlegg",
+    "653": "Idrettsanlegg",
+    "654": "Idrettsanlegg",
+    "655": "Idrettsanlegg",
+    "659": "Idrettsanlegg",
+    "661": "Kulturbygg",
+    "662": "Kulturbygg",
+    "663": "Kulturbygg",
+    "669": "Kulturbygg",
+    "671": "Religiøse bygg",
+    "672": "Religiøse bygg",
+    "673": "Religiøse bygg",
+    "674": "Religiøse bygg",
+    "675": "Religiøse bygg",
+    "679": "Religiøse bygg",
+    "719": "Helsebygg",
+    "721": "Sykehjem og omsorgsboliger",
+    "722": "Sykehjem og omsorgsboliger",
+    "723": "Sykehjem og omsorgsboliger",
+    "729": "Sykehjem og omsorgsboliger",
+    "731": "Helsebygg",
+    "732": "Helsebygg",
+    "739": "Helsebygg",
+    "819": "Fengselsbygg",
+    "821": "Beredskapsbygg",
+    "822": "Beredskapsbygg",
+    "823": "Beredskapsbygg",
+    "824": "Beredskapsbygg",
+    "825": "Beredskapsbygg",
+    "829": "Beredskapsbygg",
+    "830": "Annet",
+    "840": "Annet",
+    "999": "Annet"
+  }
+}

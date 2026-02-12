@@ -1,0 +1,18 @@
+services:
+  backend:
+    build:
+      context: ./backend
+    container_name: agents-backend
+    ports:
+      - "8101:8101"
+
+  frontend:
+    build:
+      context: ./frontend
+    container_name: agents-frontend
+    ports:
+      - "3100:3100"
+    environment:
+      - NEXT_PUBLIC_API_URL=http://backend:8101
+    depends_on:
+      - backend
